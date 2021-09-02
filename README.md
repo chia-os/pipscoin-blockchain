@@ -2,6 +2,6 @@ PipsCoin is based on the technology developed by the Chia Network Team, which se
 
 Discord Server: https://discord.gg/BWfgYEA2
 
-Introducer: dns-introducer.pipscoin.net:8888
+Introducer: dns-introducer.pipscoin.net:7477
 
 Block Reward: 5 per block

@@ -110,7 +110,7 @@ def configure(
 
         elif testnet == "false" or testnet == "f":
             print("Setting Mainnet")
-            mainnet_port = "8888"
+            mainnet_port = "7477"
             mainnet_introducer = "dns-introducer.pipscoin.net"
             net = "mainnet"
             config["full_node"]["port"] = int(mainnet_port)

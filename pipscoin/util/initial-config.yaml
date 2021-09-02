@@ -78,7 +78,7 @@ network_overrides: &network_overrides
   config:
     mainnet:
       address_prefix: "pips"
-      default_full_node_port: 8888
+      default_full_node_port: 7477
     testnet0:
       address_prefix: "tpips"
     testnet1:
@@ -169,7 +169,7 @@ farmer:
   # The farmer will attempt to connect to this full node and harvester
   full_node_peer:
     host: *self_hostname
-    port: 8888
+    port: 7477
   harvester_peer:
     host: *self_hostname
     port: 15425
@@ -218,7 +218,7 @@ timelord:
       - 150000
   full_node_peer:
       host: *self_hostname
-      port: 8888
+      port: 7477
   # Maximum number of seconds allowed for a client to reconnect to the server.
   max_connection_time: 60
   # The ip and port where the TCP clients will connect.
@@ -253,7 +253,7 @@ timelord:
 
 full_node:
   # The full node server (if run) will run on this port
-  port: 8888
+  port: 7477
 
   # Run multiple nodes with different databases by changing the database_path
   database_path: db/blockchain_v1_CHALLENGE.sqlite
@@ -317,7 +317,7 @@ full_node:
       port: 14567
   introducer_peer:
       host: introducer.pipscoin.net  # Pipscoin AWS introducer IPv4/IPv6
-      port: 8888
+      port: 7477
   wallet_peer:
     host: *self_hostname
     port: 17220
@@ -383,7 +383,7 @@ wallet:
 
   full_node_peer:
     host: *self_hostname
-    port: 8888
+    port: 7477
 
   testing: False
   database_path: wallet/db/blockchain_wallet_v1_CHALLENGE_KEY.sqlite
@@ -401,7 +401,7 @@ wallet:
 
   introducer_peer:
     host: introducer.pipscoin.net # Pipscoin AWS introducer IPv4/IPv6
-    port: 8888
+    port: 7477
 
   ssl:
     private_crt:  "config/ssl/wallet/private_wallet.crt"
